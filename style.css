@@ -1,0 +1,68 @@
+h1{
+    color: #85f085;
+    text-align: center;
+}
+
+
+
+.header{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+
+body{
+    background-color: aquamarine;
+}
+
+
+a:link{
+    color: rgb(136, 17, 90);
+}
+
+a:visited{
+    color: rgb(98, 28, 163);
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity:1;
+    font-size: x-large;
+}
+
+.item:hover img{
+    opacity: 0.33
+}
+
+
+
